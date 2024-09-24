@@ -3,7 +3,7 @@ import Link from "next/link";
 import React from "react";
 import Image from "next/image";
 import logo from "../../public/1946.webp";
-
+import qr from "../../public/assets/qr.jpg";
 const index = () => {
   return (
     <div>
@@ -22,12 +22,20 @@ const index = () => {
       </div>
 
       <section className="min-h-[calc(100vh_-_150px)]  flex justify-center items-center">
-        <div className="container max-w-screen-xl px-2 mx-auto py-14 md:px-8">
-          <div>
+        <div className="container max-w-screen-xl px-2 mx-auto py-14 md:px-8 ">
+          <div className="w-full">
             <h3 className="mb-5 text-4xl text-center font-extrabold">
-              {" "}
               Privacy Policy
             </h3>
+            <div className="w-full flex justify-between items-center">
+              <Image
+                src={qr}
+                height={100}
+                width={100}
+                className="w-28 mx-auto my-2"
+                alt="logo-img"
+              />
+            </div>
             <div className="font-bold text-lg">
               Disclaimer: This is not the official website. This website is
               managed by an Registered authorised marketing partner. The content

@@ -111,9 +111,9 @@ export const Hero = ({ setIsModel }) => {
               </Link>
               <Link
                 className="w-full sm:w-[50%] transition-all duration-300 hover:bg-black font-medium text-lg hover:text-white p-2 px-6 rounded-md"
-                href={"../#amenity"}
+                href={"../#amenities"}
               >
-                Amenity
+                Amenities
               </Link>
 
               <Link
@@ -157,9 +157,9 @@ export const Hero = ({ setIsModel }) => {
             </Link>
             <Link
               className="transition-all duration-300 hover:bg-black font-medium text-lg hover:text-white p-[5px] px-4 rounded-md"
-              href={"../#amenity"}
+              href={"../#amenities"}
             >
-              Amenity
+               Amenities
             </Link>
 
             <Link

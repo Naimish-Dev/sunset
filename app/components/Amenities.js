@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const Amenities = () => {
   return (
-    <div className=" my-14  " id="amenity">
+    <div className=" my-14  " id=" amenities">
       <div className="my-section my-14  text-white  relative z-10">
         <div className="absolute top-0 left-0 h-full w-full bg-black bg-opacity-40 z-[1]"></div>
         <div className="w-full p-4 sm:p-10 z-20 relative">
