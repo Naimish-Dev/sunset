@@ -37,9 +37,9 @@ const ThankYou = () => {
                 Call us if you have any questions:
                 <Link
                   className="mt-2 font-semibold text-center text-sm sm:text-base "
-                  href={`tel:+971 506945852`}
+                  href={`tel:+971583094911`}
                 >
-                  &nbsp; +971 506945852
+                  &nbsp; +971583094911
                 </Link>
               </div>
             </div>
