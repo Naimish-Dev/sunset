@@ -1,10 +1,12 @@
-import { Inter } from "next/font/google";
+import { Roboto } from "next/font/google";
 import "./globals.css";
 import Conact from "./components/Conact";
 import { Footer } from "./components/Footer";
 
-const inter = Inter({ subsets: ["latin"] });
-
+const roboto = Roboto({
+  weight: "400",
+  subsets: ["latin"],
+});
 export const metadata = {
   title: "Damac Sun City",
   description: "Damac Sun City at Dubailand by Damac Properties",
@@ -52,7 +54,7 @@ window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(argume
         <Script>{`gtag('config', 'AW-16561901636')`}</Script> */}
       </head>
       <Conact />
-      <body className={inter.className}>{children}</body>
+      <body className={roboto.className}>{children}</body>
       <Footer />
     </html>
   );

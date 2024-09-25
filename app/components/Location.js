@@ -58,8 +58,8 @@ const Location = () => {
         <div className="flex flex-col w-full md:flex-row py-8">
           <div className="w-full h-[560px] mx-auto">
             <Image
-              src="/assets/images/map.png"
-              className="w-full h-full shadow-md object-cover"
+              src="/assets/map.jpg"
+              className="w-full h-full shadow-md object-cover 14px aspect-square"
               height={500}
               width={500}
               alt="img"
